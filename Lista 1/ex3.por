@@ -103,7 +103,7 @@ programa
 		}
 	}
 
-	funcao inteiro menuRetorno() {
+	funcao menuRetorno() {
 		escreva("Deseja realizar nova operação?\n[1] Sim\n[2] Não\nOpção escolhida: ")
 		leia(opcao)
 		limpa()
@@ -123,7 +123,6 @@ programa
 				menuRetorno()
 			pare
 		}
-		retorne opcao
 	}
 
 	funcao aguardar() {
@@ -185,10 +184,10 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2649; 
- * @DOBRAMENTO-CODIGO = [23, 39, 46, 53, 60, 75, 105, 128, 135];
+ * @POSICAO-CURSOR = 2200; 
+ * @DOBRAMENTO-CODIGO = [23, 39, 46, 53, 60, 75, 105, 127, 134];
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num1, 9, 6, 4}-{num2, 9, 18, 4}-{soma, 9, 30, 4}-{cadNum1, 10, 8, 7}-{cadNum2, 10, 17, 7}-{verificaNum1, 12, 26, 12}-{verificaNum2, 12, 48, 12}-{numeros, 13, 10, 7}-{valor, 25, 9, 5}-{n, 25, 16, 1}-{valor1, 137, 11, 6}-{valor2, 137, 19, 6}-{caracteresNum1, 138, 10, 14}-{caracteresNum2, 138, 26, 14};
+ * @SIMBOLOS-INSPECIONADOS = {num1, 9, 6, 4}-{num2, 9, 18, 4}-{soma, 9, 30, 4}-{cadNum1, 10, 8, 7}-{cadNum2, 10, 17, 7}-{verificaNum1, 12, 26, 12}-{verificaNum2, 12, 48, 12}-{numeros, 13, 10, 7}-{valor, 25, 9, 5}-{n, 25, 16, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
