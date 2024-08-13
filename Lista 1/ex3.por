@@ -3,7 +3,7 @@ programa
 {
 	inclua biblioteca Util --> u
 	inclua biblioteca Tipos --> tip
-	inclua biblioteca Texto --> tex
+	inclua biblioteca Texto --> txt
 	inclua biblioteca Matematica --> mat
 	
 	real num1 = 0.0, num2 = 0.0, soma, sub, mult, div
@@ -27,7 +27,7 @@ programa
 		para(inteiro i = 1; i < 3; i++) {
 			escreva("Informe o ", i ,"º número: ")
 			n = tip.inteiro_para_cadeia(i, 10)
-			valor = tex.substituir("num0", "0", n)
+			valor = txt.substituir("num0", "0", n)
 			se(valor == "num1") {
 				leia(cadNum1)
 			} senao {
@@ -136,11 +136,11 @@ programa
 		caracter valor1, valor2
 		inteiro caracteresNum1, caracteresNum2, qtd = 0
 		
-		caracteresNum1 = tex.numero_caracteres(cadNum1)
-		caracteresNum2 = tex.numero_caracteres(cadNum2)
+		caracteresNum1 = txt.numero_caracteres(cadNum1)
+		caracteresNum2 = txt.numero_caracteres(cadNum2)
 
 		para(inteiro i = 0; i < caracteresNum1; i++) {
-			valor1 = tex.obter_caracter(cadNum1, i)
+			valor1 = txt.obter_caracter(cadNum1, i)
 			para(inteiro j = 0; j < 10; j++) {
 				se(valor1 == numeros[j]) {
 					qtd += 1
@@ -155,7 +155,7 @@ programa
 		se(verificaNum1 == verdadeiro) {
 			qtd = 0
 			para(inteiro i = 0; i < caracteresNum2; i++) {
-				valor2 = tex.obter_caracter(cadNum2, i)
+				valor2 = txt.obter_caracter(cadNum2, i)
 				para(inteiro j = 0; j < 10; j++) {
 					se(valor2 == numeros[j]) {
 						qtd += 1
@@ -184,8 +184,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2200; 
- * @DOBRAMENTO-CODIGO = [23, 39, 46, 53, 60, 75, 105, 127, 134];
+ * @POSICAO-CURSOR = 118; 
+ * @DOBRAMENTO-CODIGO = [39, 46, 53, 60, 75, 105, 127];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {num1, 9, 6, 4}-{num2, 9, 18, 4}-{soma, 9, 30, 4}-{cadNum1, 10, 8, 7}-{cadNum2, 10, 17, 7}-{verificaNum1, 12, 26, 12}-{verificaNum2, 12, 48, 12}-{numeros, 13, 10, 7}-{valor, 25, 9, 5}-{n, 25, 16, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
