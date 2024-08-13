@@ -25,7 +25,7 @@ O projeto foi realizado durante o período aproximado de 5 dias, durante a disci
 
 <div align="center">
 
-<img src="Poo-G4. logico.png">
+<img src="exemplo_slide.drawio.png">
 
 </div>
 
