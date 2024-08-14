@@ -18,7 +18,7 @@ programa
 	}
 
 	funcao calcular() {
-		f = c * (1.8 + 32)
+		f = c * 1.8 + 32
 	}
 
 	funcao resultado() {
@@ -39,7 +39,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 370; 
+ * @POSICAO-CURSOR = 151; 
+ * @DOBRAMENTO-CODIGO = [14, 19, 23, 27];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

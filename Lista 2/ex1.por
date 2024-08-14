@@ -27,10 +27,10 @@ programa
 		u.aguarde(2500)
 		limpa()
 		
-		se(tentativas > 0) {
-			escreva("\nMas você só tem ", tentativas, " tentativas!")
-		} senao {
+		se(tentativas == 1) {
 			escreva("\nMas você só tem ", tentativas, " tentativa!")	
+		} senao {
+			escreva("\nMas você só tem ", tentativas, " tentativas!")
 		}
 		
 		u.aguarde(2500)
@@ -95,7 +95,7 @@ programa
 		}
 		
 		se(verificaNumero != verdadeiro) {
-			escreva("Espertinho, você não digitou um caracter válido ^^\n")
+			escreva("Espertinho, você não digitou um caracter inválido ^^\n")
 			aguardar()
 			limpa()
 			pergunta()
@@ -116,8 +116,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 545; 
- * @DOBRAMENTO-CODIGO = [77, 104];
+ * @POSICAO-CURSOR = 814; 
+ * @DOBRAMENTO-CODIGO = [47, 77, 104];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {numeroUniverso, 8, 9, 14}-{cadNumero, 10, 8, 9}-{valor, 79, 11, 5}-{caracteresNumero, 80, 10, 16}-{qtd, 80, 28, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
