@@ -7,7 +7,7 @@
 
 * Sobre o Projeto
 * Tecnologias utilizadas
-* Diagrama
+* Fluxograma
 * Autores do Projeto
 
 ## Sobre o Projeto
